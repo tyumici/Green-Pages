@@ -14,7 +14,9 @@
 
 Prefix: List the command prefix (!, $, &, etc)
 
-### COMMAND NAME 
+### COMMAND NAME
+> Optionally, create a H3 for a slate of related commands, each as an H4 underneath
+
 - COMMAND DESCRIPTION
 - AVAILABLE IN -- List twitch channels this command can be used it, omit if only your channel
 - COMMAND PARAMETERS
