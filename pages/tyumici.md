@@ -1,4 +1,27 @@
 # [☢️] Tyumici
+[Home](../README.md)
+
+- [\[☢️\] Tyumici](#️-tyumici)
+  - [LINKS](#links)
+  - [COMMANDS](#commands)
+    - [Information Suite](#information-suite)
+    - [Radiation Suite](#radiation-suite)
+      - [User Stats](#user-stats)
+      - [radiate](#radiate)
+      - [geiger](#geiger)
+      - [radleader](#radleader)
+      - [deathleader](#deathleader)
+      - [doseleader](#doseleader)
+      - [atomize](#atomize)
+      - [irradiate](#irradiate)
+      - [radcommands](#radcommands)
+    - [Crust Suite](#crust-suite)
+      - [crust](#crust)
+      - [crustleader](#crustleader)
+      - [crustavg](#crustavg)
+      - [lifetimecrust](#lifetimecrust)
+    - [Misc Commands](#misc-commands)
+  - [INTERACTIONS](#interactions)
 
 ## LINKS
 
