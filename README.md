@@ -2,6 +2,9 @@
 
 This repository is a central location for chat commands and interactions across the so called Green and Teal circles.
 
+[Green Circle](https://www.twitch.tv/team/green)
+[Teal Circle](https://prod.kr/v/dex) -- Shows LIVE Teal Circle Members
+
 ## Table of Contents
 
 Tyumici Docs: [Tyumici](./pages/tyumici.md)
