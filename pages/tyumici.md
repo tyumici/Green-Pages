@@ -50,7 +50,7 @@ The following are self descriptive information commands:
 
 ### Radiation Suite
 
-Available in channels: [Tyumici](https://www.twitch.tv/tyumici), [BrighterMalphon](www.twitch.tv/brightermalphon), [Lala Amanita](www.twitch.tv/lala_amanita), [LCOLONQ](www.twitch.tv/lcolonq), [liquidcake1](www.twitch.tv/liquidcake1), [prodzpod](www.twitch.tv/prodzpod), [SaladForrest](www.twitch.tv/saladforrest), [just__jane](www.twitch.tv/just__jane), [Meisaka](www.twitch.tv/meisaka)
+Available in channels: [Tyumici](https://www.twitch.tv/tyumici), [BrighterMalphon](https://www.twitch.tv/brightermalphon), [Lala Amanita](https://www.twitch.tv/lala_amanita), [LCOLONQ](https://www.twitch.tv/lcolonq), [liquidcake1](https://www.twitch.tv/liquidcake1), [prodzpod](https://www.twitch.tv/prodzpod), [SaladForrest](https://www.twitch.tv/saladforrest), [just__jane](https://www.twitch.tv/just__jane), [Meisaka](https://www.twitch.tv/meisaka)
 
 #### User Stats
 
@@ -96,7 +96,7 @@ Lists out all of the above radiate commands
 
 ### Crust Suite
 
-Available in channels: [BrighterMalphon](www.twitch.tv/brightermalphon)
+Available in channels: [BrighterMalphon](https://www.twitch.tv/brightermalphon)
 
 #### crust
 
@@ -116,11 +116,11 @@ Outputs the users crust stats. This includes: Current Crust, Lowest Crust, Highe
 
 ### Misc Commands
 
-rice: Available in [SaladForrest](www.twitch.tv/saladforrest) - Blesses the rice
+rice: Available in [SaladForrest](https://www.twitch.tv/saladforrest) - Blesses the rice
 
-???????: Available in [Tyumici](www.twitch.tv/tyumici) (hint, it's on this page)
+???????: Available in [Tyumici](https://www.twitch.tv/tyumici) (hint, it's on this page)
 
-resetcannibal: Available in [BrighterMalphon](www.twitch.tv/brightermalphon) - Reset the timer since cannibalism was mentioned
+resetcannibal: Available in [BrighterMalphon](https://www.twitch.tv/brightermalphon) - Reset the timer since cannibalism was mentioned
 
 
 ## INTERACTIONS
