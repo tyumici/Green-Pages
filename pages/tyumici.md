@@ -50,7 +50,7 @@ The following are self descriptive information commands:
 
 ### Radiation Suite
 
-Available in channels: [Tyumici](www.twitch.tv/tyumici), [BrighterMalphon](www.twitch.tv/brightermalphon), [Lala Amanita](www.twitch.tv/lala_amanita), [LCOLONQ](www.twitch.tv/lcolonq), [liquidcake1](www.twitch.tv/liquidcake1), [prodzpod](www.twitch.tv/prodzpod), [SaladForrest](www.twitch.tv/saladforrest), [just__jane](www.twitch.tv/just__jane), [Meisaka](www.twitch.tv/meisaka)
+Available in channels: [Tyumici](https://www.twitch.tv/tyumici), [BrighterMalphon](www.twitch.tv/brightermalphon), [Lala Amanita](www.twitch.tv/lala_amanita), [LCOLONQ](www.twitch.tv/lcolonq), [liquidcake1](www.twitch.tv/liquidcake1), [prodzpod](www.twitch.tv/prodzpod), [SaladForrest](www.twitch.tv/saladforrest), [just__jane](www.twitch.tv/just__jane), [Meisaka](www.twitch.tv/meisaka)
 
 #### User Stats
 
