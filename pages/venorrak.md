@@ -22,7 +22,7 @@
 
 #### Prefix: **!**
 
-Available in channels: [Venorrak](www.twitch.tv/venorrak), [Prodzpod](www.twitch.tv/prodzpod), [Cr4zyK1tty](www.twitch.tv/cr4zyk1tty), [JakeCreatesStuff](www.twitch.tv/jakecreatesstuff), [Tyumici](www.twitch.tv/tyumici), [Lcolonq](www.twitch.tv/lcolonq), [ColinahsCopy_](www.twitch.tv/colinahscopy_), [Bamo16](www.twitch.tv/bamo16), [KinskyUnplugged](www.twitch.tv/kinskyunplugged)
+Available in channels: [Venorrak](https://www.twitch.tv/venorrak), [Prodzpod](https://www.twitch.tv/prodzpod), [Cr4zyK1tty](https://www.twitch.tv/cr4zyk1tty), [JakeCreatesStuff](https://www.twitch.tv/jakecreatesstuff), [Tyumici](https://www.twitch.tv/tyumici), [Lcolonq](https://www.twitch.tv/lcolonq), [ColinahsCopy_](https://www.twitch.tv/colinahscopy_), [Bamo16](https://www.twitch.tv/bamo16), [KinskyUnplugged](https://www.twitch.tv/kinskyunplugged)
 
 <hr>
 
