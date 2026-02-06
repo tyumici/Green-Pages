@@ -54,7 +54,7 @@ If sword is drawn, its quality is rolled:
 | `☼Masterful☼`   | 3.00%         | **0.3867%** |
 | *`Artifact`*    | 1.00%         | **0.1289%** |
 
-Presense of handle decorations is determined after the quality:
+Presence of handle decorations is determined after the quality:
 | Quality      | Conditional % |
 | --------     | ------------- |
 | `Common`     | 0.00%         |
@@ -63,7 +63,7 @@ Presense of handle decorations is determined after the quality:
 
 All materials (handle decorum and main material of the sword), as well as the sword type are rolled uniformly, with following exceptions:
 - Sword of type `needle` is never rolled and is instead obtained by [!needle](#needle) command. Needles are considered to always have a handle decoration of the same material as the needle.
-- Sword of type `tooth` is never rolled and is instead obtained by unknown means of beating enough bandits and claiming the spoils. Material and quality of `tooth` are determined by the presense and skill level of the closest dentist in the town closest to debauchery occured (calculated with consideration to both dentist office position and the approach vector).
+- Sword of type `tooth` is never rolled and is instead obtained by unknown means of beating enough bandits and claiming the spoils. Material and quality of `tooth` are determined by the presence and skill level of the closest dentist in the town closest to debauchery occurred (calculated with consideration to both dentist office position and the approach vector).
 - Material `lost rosewood` is no longer obtainable, as it was bestowed upon the portion of the ancient swords (swords drawn before the beginning of times) which had regular wood in their composition.
 
 Moreover, *`artifact`* swords are guaranteed (unless cache failed to load) to be unique in composition - their material, type, and handle decorations, as well as the name bestowed in both [Elven](https://dwarffortresswiki.org/index.php/Elven_language) and [English](https://en.wikipedia.org/wiki/English_language) languages.
@@ -88,7 +88,7 @@ Rolls for a chance to find a needle in a haystack, which is roughly 1.95% percen
 
 #### !sbob-ad
 
-Prints the current advertisment for the [Small Book Of Bug](https://pub.colonq.computer/~nichepenguin/kno/sbob.html), where you can look at various bugs, as well as submit your own!
+Prints the current advertisement for the [Small Book Of Bug](https://pub.colonq.computer/~nichepenguin/kno/sbob.html), where you can look at various bugs, as well as submit your own!
 
 
 #### !rice
@@ -115,12 +115,12 @@ Are executed if the message starts with string provided
 
 #### hmmm
 
-Displays :limesHmm: emote
+Displays ![limesHmm](https://static-cdn.jtvnw.net/emoticons/v2/305153339/default/dark/3.0) emote
 
 
 #### mmmm
 
-Displays a :meisakNoM: emote
+Displays a ![meisakNoM](https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_1f8aeae7b9c24ea7a731a3fecdb0fd94/default/dark/2.0) emote
 
 ## INTERACTIONS
 
