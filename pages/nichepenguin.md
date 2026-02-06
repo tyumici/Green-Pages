@@ -115,7 +115,7 @@ Are executed if the message starts with string provided
 
 #### hmmm
 
-Displays ![limesHmm](https://static-cdn.jtvnw.net/emoticons/v2/305153339/default/dark/3.0) emote
+Displays a ![limesHmm](https://static-cdn.jtvnw.net/emoticons/v2/305153339/default/dark/2.0) emote
 
 
 #### mmmm
