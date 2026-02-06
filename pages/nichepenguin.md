@@ -4,7 +4,7 @@
 - [\[💚/💜\] nichePenguin](#-nichePenguin)
     - [LINKS](#links)
     - [COMMANDS](#commands)
-        - [Cards, Swords and Needles suite](#cards,-swords-and-needles-suite)
+        - [Cards, Swords and Needles suite](#cards-swords-and-needles-suite)
             - [!draw](#draw)
             - [!armory](#armory)
             - [!needle](#needle)
@@ -28,7 +28,11 @@
 
 Available in channels: [bigbookofbug](https://www.twitch.tv/bigbookofbug), [BrighterMalphon](https://www.twitch.tv/brightermalphon), [KinskyUnplugged](https://www.twitch.tv/kinskyunplugged), [lala_amanita](https://www.twitch.tv/lala_amanita), [LCOLONQ](https://www.twitch.tv/lcolonq), [Meisaka](https://www.twitch.tv/meisaka), [MyriadMinds](https://www.twitch.tv/myriadminds), [nichePenguin](https://www.twitch.tv/nichePenguin), [PippinFool](https://www.twitch.tv/pippinfool), [prodzpod](https://www.twitch.tv/prodzpod), [SaladForrest](https://www.twitch.tv/saladforrest), [Tyumici](https://www.twitch.tv/tyumici),
 
+<hr>
+
 ### Cards, Swords and Needles suite
+
+<hr>
 
 #### !draw
 
@@ -74,7 +78,9 @@ Displays a random sword from your armory or one specified by the `sword_id` para
 
 ***Aliases:*** !haystack
 
-Rolls for a chance to find a needle in a haystack, which is roughly 1.95% percent of the times. It is then added to your [!armory](#!armory)
+Rolls for a chance to find a needle in a haystack, which is roughly 1.95% percent of the times. It is then added to your [!armory](#armory)
+
+<hr>
 
 ### Misc Commands
 
@@ -98,6 +104,8 @@ Pritns the link to the game Void Stranger on steam
 #### !ping
 
 Pritns a "pong" message, followed by anything that was prepended to the "!ping" command
+
+<hr>
 
 ### Non-Commands
 
