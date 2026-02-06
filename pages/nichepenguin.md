@@ -124,7 +124,7 @@ Displays a :meisakNoM: emote
 
 ## INTERACTIONS
 
-Swords (as well as needles and teeth) can be fetched with the following api, which is currently dead slow and might require some retrys (especially on timeouts and bad gateways)
+Swords (as well as needles and teeth) can be fetched with the following api, which is currently dead slow and might require some retries (especially on timeouts and bad gateways)
 
 Base url: https://pub.colonq.computer/~nichepenguin/cgi-bin/
 
