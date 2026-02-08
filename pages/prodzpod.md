@@ -34,10 +34,10 @@
 - `!guy`: Summons a "guy": a "guy" is an avatar that roams the screen on your behalf. 
   - you may `!fight` another player (name **without** @) in which you will enter a duel. once you are victorious, you can `!levelup` to increase a random stat of your guy until it perishes. Once your guy perish, your guy will respawn with all combat stats reset. If you have equal or more than your opponent's HP percentage, you can `!peace` a player to cancel the fight.
   - you can customize your "guy" by creating a spritesheet and sending the image to prod. The format is a 3x2 rectangle of any size, with top 3 frames for walking, 1 for falling, 1 for attacking and 1 for getting attacked. See [the default guy sprite](https://prod.kr/data/shimeji/default.3x2.png) for example. This sprite is free to be modified if desired.
-  - Every BRB screen (often once per stream), a **Raid Boss** spawns and draws aggro of every spawned "guy"s. Raid boss will have boosted health and damage, and often one-shots unupgraded "guy"s. After the raid boss is defeated, a big brawl will break out where one chatter will come out on top with a lot of stat points to spend on levelups. If you somehow aren't fighting the boss, you can `!fight prodzpod` to engage it.
+  - Every BRB screen (often once per stream), a **Raid Boss** spawns and draws aggro of every spawned "guy"s. Raid boss will have boosted health and damage, and often one-shots un-upgraded "guy"s. After the raid boss is defeated, a big brawl will break out where one chatter will come out on top with a lot of stat points to spend on level-ups. If you somehow aren't fighting the boss, you can `!fight prodzpod` to engage it.
 - `!gravity`: Apply gravity to every window and elements on screen. you can also specify a direction (`!gravity up`, `!gravity left`, `!gravity right`).
 - **The [Discord Server](https://prod.kr/discord)** and `!irc`: *the pod* offers a custom tube between twitch, discord and irc so that users can chat from any of these places and it would be relayed to everywhere else. In the chat overlay, both discord and twitch emotes are supported. In addition, prod has a `!post` gizmo that links various social media, which powers stream announcements going to [Bluesky](https://bsky.app/profile/prodzpod.bsky.social) and Discord simultaneously.
-- Most commands can be used outside of *the pod*, including twitch chats of [LCOLONQ](https://twitch.tv/lcolonq), [BritherMalphon](https://twitch.tv/brightermalphon), [Lala Amanita](https://twitch.tv/lala_amanita), [SaladForrest](https://twitch.tv/saladforrest), [Tyumici](https://twitch.tv/tyumici) and [KinskyUnplugged](https://twitch.tv/kinskyunplugged).
+- Most commands can be used outside of *the pod*, including twitch chats of [LCOLONQ](https://twitch.tv/lcolonq), [BrighterMalphon](https://twitch.tv/brightermalphon), [Lala Amanita](https://twitch.tv/lala_amanita), [SaladForrest](https://twitch.tv/saladforrest), [Tyumici](https://twitch.tv/tyumici) and [KinskyUnplugged](https://twitch.tv/kinskyunplugged).
 
 <br>
 
@@ -60,11 +60,11 @@
 &nbsp;&nbsp;**Chungus Game** is a stream engagement farming and cooking simulator anyone can participate. This gizmo was created and interacts with the starting soon/BRB screen for [a different twitch channel](https://twitch.tv/lala_amanita) (my wife), and has no direct relation to *the pod*. Every command can be accessed with `!chungus`. The water status is shown as both text and as images depicting stages of growth, and redeeming model toggles while the screen is active will toggle that element in the drawn version of lala in the screen as well.
 
 - `!chungus water`: Waters the plant. A plant is shared between everybody, and has a threshold of water commands before everyone who participated **for that cycle** obtains the harvest. Each account has one opportunity to water, and it refreshes every time **lala** (not prod) goes live.
-- `!chungus inventory`: After you recieve the harvest from watering, it will be added to your inventory. You can also see other people's inventory with `!chungus inventory [username]`.
+- `!chungus inventory`: After you receive the harvest from watering, it will be added to your inventory. You can also see other people's inventory with `!chungus inventory [username]`.
 - **[Chungus Dashboard](https://prod.kr/lala/chungus)**: You can check and interact with your inventory here. You can cook ingredients into random food, and then select up to 3 of them to be your "menu". The ingredient you use, the type of food you make, and the quality (denoted by stars) determine the stats (🍏**sweet**/🍋**sour**/🌶️**spicy**) of each food, and the sum of selected foods' stats will be reflected on your profile. You can also sell foods for **lala money**(ణ, currently no use yet), and give money or item to other users here.
-- `!chungus leaderboard [sweet/sour/spicy/money]`: Check the leaderboard for most sweetness/sourness/spicyness in an individual profile. You can also check the leaderboard for most cash from sold foods.
+- `!chungus leaderboard [sweet/sour/spicy/money]`: Check the leaderboard for most sweetness/sourness/spiciness in an individual profile. You can also check the leaderboard for most cash from sold foods.
 
-&nbsp;&nbsp;In addition to Chungus Game, you can also do `!jdraw` in lala's twitch chat, and have an image of a random "Joel" emote from [The Archive](#floor--4) show up. This is in reference to the command of the same name in [Venorrak](./venorrak.md)'s bot, which is in itself also a reference of `!draw` from [Nichepenguin](./nichepenguin.md)'s bot.
+&nbsp;&nbsp;In addition to Chungus Game, you can also do `!jdraw` in lala's twitch chat, and have an image of a random "Joel" emote from [The Archive](#floor--4) show up. This is in reference to the command of the same name in [Venorrak](./venorrak.md)'s bot, which is in itself also a reference of `!draw` from [nichepenguin](./nichepenguin.md)'s bot.
 
 <br>
 
@@ -101,7 +101,7 @@
 - **Change Camera**: Changes the "camera" that projects prod. Rapid changes of camera can make the overlay unstable!
 ### Guy Operation
 - **Jump**: forces a jump if your guy is summoned. Can also be called by `!jump`.
-- **Spawn Fan**/**Anti-Fan**: creates an element that imparts momentum to unpinned objects such as guys or windows. Fans blow away objects, Anti-Fans suck in objects. Requires two clicks to summon, one for the position, another for the direciton.
+- **Spawn Fan**/**Anti-Fan**: creates an element that imparts momentum to unpinned objects such as guys or windows. Fans blow away objects, Anti-Fans suck in objects. Requires two clicks to summon, one for the position, another for the direction.
 ### Information Actions
 - **Help**: Displays information.
 - **Today**: Displays today's agenda. Can also be called with `!today`.
@@ -109,7 +109,7 @@
 
 &nbsp;&nbsp;`!volume [number]` can be used to change the overall volume of the overlay. You can also change the volume for a specific category by using `!volume [category] [number]`. You can use `!volume` with no arguments to get a list of audio categories.
 
-&nbsp;&nbsp;Overlay's broken? Do not worry! We welcome and [encourage](#floor--3) this behaviour. We take backups of the overlay state every minute, and it will be loaded back within seconds.
+&nbsp;&nbsp;Overlay's broken? Do not worry! We welcome and [encourage](#floor--3) this behavior. We take backups of the overlay state every minute, and it will be loaded back within seconds.
 
 <br>
 
@@ -133,12 +133,12 @@
 &nbsp;&nbsp;**GreenFeed** is a system that is currently running in prod's Discord as well as the irc zones, where whenever a GreenCircle member goes live you are alerted with an opt-in role. The role can be obtained by reacting plug emoji ("🔌") to [this message](https://discord.com/channels/1219954701726912583/1219956526794543194/1270499013820547122).
 
 &nbsp;&nbsp;**TealCircle** is a recommendation list created by prod months after the launch of GreenCircle that works very **differently** to its inspiration by design. It is a VTuber recommendation list that is curated by prod that covers creative talents not inducted into the "twitch team" nature of GreenCircle. By definition, it is a superset of GreenCircle. TealCircle members are also featured in the ["prodzpod suggests these streamers" list](https://www.twitch.tv/prodzpod) in prod's twitch profile.
-- **[The Hollow Decks](https://prod.kr/v/dex)** predates TealCircle but now features everyone in Teal and also the **Turquoise Circle** (an expanded version of TealCircle containing even more members, more volatile than Teal). It shows every member that are live, can be filtered by different circles, and functions as a multistream client with custom layout, resize and chat support. You can also put arbiturary links in the multistream view if CORS from prod.kr is supported.
+- **[The Hollow Decks](https://prod.kr/v/dex)** predates TealCircle but now features everyone in Teal and also the **Turquoise Circle** (an expanded version of TealCircle containing even more members, more volatile than Teal). It shows every member that are live, can be filtered by different circles, and functions as a multistream client with custom layout, resize and chat support. You can also put arbitrary links in the multistream view if CORS from prod.kr is supported.
 - **[Teal Orb](https://prod.kr/v/teal)** is a raid recommendation tool that summons a random TealCircle member currently live. Filtering options are available.
-- **TealFeed** works similarly to GreenFeed, except it does not link to IRC and does not have a special role. This feature is more for prod to keep up with members than for public service, and users are expected to use the Discord notification settings set to "All Messages" to recieve TealCircle live notifications.
+- **TealFeed** works similarly to GreenFeed, except it does not link to IRC and does not have a special role. This feature is more for prod to keep up with members than for public service, and users are expected to use the Discord notification settings set to "All Messages" to receive TealCircle live notifications.
 - **Green Pages**, the repository you are seeing now, are also in effort to help bridge the various creative endeavors and collaborations and create a unified document for the TealCircle.
 - **Remote Command Usage**: Similar to logging into `!screen`, you can connect your Discord account with your Twitch account using `/login` within prod's discord.
-- `!irclogin`: You can also connect your IRC presense to twitch by using this command.
+- `!irclogin`: You can also connect your IRC presence to twitch by using this command.
 
 <br>
 
@@ -158,7 +158,7 @@
  󠀠   --\_ 󠀠    󠀠   \_---\_\_ 󠀠    󠀠   \_\_- 󠀠   \_\_ 󠀠    󠀠    󠀠    󠀠   -- 󠀠    󠀠   \_=-- 󠀠    
  󠀠    󠀠    󠀠    󠀠   - 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   - 󠀠    󠀠    󠀠   -  
 <br>
-&nbsp;&nbsp;**IU** is the "main currency" / "channel points" of *the pod*, that are required when performing certain actions. On the screen, if an action has a parenthesis (such as `(10)`), it is a cost required to perform that action. Most actions require only a small amount of IU, as it is more to prevent spam than to funciton as an actual currency.
+&nbsp;&nbsp;**IU** is the "main currency" / "channel points" of *the pod*, that are required when performing certain actions. On the screen, if an action has a parenthesis (such as `(10)`), it is a cost required to perform that action. Most actions require only a small amount of IU, as it is more to prevent spam than to function as an actual currency.
 - You can view your current IU amount via the `!inventory` command. You can also view other people's IU amounts by `!inventory [username]`.
 - Every week, your first message awards you **5000** IU. from then on, every chat message awards you **1** IU per every 100 characters or 10 emotes.
 
@@ -178,7 +178,7 @@
 
 *You decide to take a well-deserved break by the bank, drying your pants on the incline. You look back on the journey you've taken. How far you've come, and how far there is to go still. The path ahead is much steeper than before. There are less things to grab on to. One mistake, and all of this might be over. But you already made up your mind.*
 
-*Transcendance awaits you.*
+*Transcendence awaits you.*
 
 \> [Proceed downwards](#floor--4)  
 \> [Fall into the water](#annex-firefly-lake)  
@@ -213,7 +213,7 @@
  󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   ,  
  󠀠   ',| 󠀠    󠀠    󠀠   | 󠀠    󠀠    󠀠   || 󠀠    󠀠    󠀠    󠀠   |' 󠀠    󠀠   ' 󠀠    󠀠   ,, 󠀠    󠀠    󠀠   ,|' 󠀠    󠀠    󠀠    󠀠    󠀠   ' 󠀠    󠀠    󠀠    󠀠   | 󠀠   | 󠀠    󠀠   ' 󠀠    󠀠   '  
 *You being scaling down the surface. Rubbles fall everywhere you step.*  
-*But transcendance awaits.*   
+*But transcendence awaits.*   
 | 󠀠    󠀠   || 󠀠    󠀠    󠀠    󠀠    󠀠   |''' 󠀠    󠀠   |' 󠀠    󠀠   ''  
  󠀠    󠀠    󠀠   ' 󠀠    󠀠    󠀠    󠀠   '  
 <br>
@@ -264,7 +264,7 @@
 - You can append `!` to stop the note from "advancing the staff line", allowing for notes to overlap with different note lengths.
 - You can specify the instrument by writing them after the dot at the beginning of the track, such as `song.drum120|C/C/C/C`. You can type `!instrument` to get the list of instruments available.
 - You can write microtonal music by typing `%` followed by the number of notes in an octave at the beginning, such as `song.120%31|ABC`.
-- You can change the bpm and equal temperment midway through via using the `?` followed by the BPM in numbers.
+- You can change the bpm and equal temperament midway through via using the `?` followed by the BPM in numbers.
 - Premade songs are available to be copied and played in [DBKai](https://pub.colonq.computer/~prod/toy/dbkai/): select any song from the dropdown and press **"prod"** where the result will be automatically copied to your clipboard. You can also convert **MIDI** files into `!song` formats by using the top menu.
 - More songs that take advantage of `!song`'s expanded system are available in [CrazyKitty's Repository](https://pub.colonq.computer/~crazykitty/).
 - At the bottom of DBKai, there are extra compression option in case the text-based compression is not enough. This takes advantage of a modified **Base32768** to nearly halve the character count. Keep in mind that song commands can be pasted to not only Twitch chat (**500** character limit) but also Discord (**2000**~4000 character limit) and The Screen (theoretically **infinite** character limit).
@@ -272,9 +272,9 @@
 
 <br>
 
-*At the heart of the temple lies an amulet. Green glassy tendrils lead to behild the temple. You can feel the blood rushing through you. Your head feels heavy. Sweat pours out of your forehead. The cave is patient.*
+*At the heart of the temple lies an amulet. Green glassy tendrils lead to behind the temple. You can feel the blood rushing through you. Your head feels heavy. Sweat pours out of your forehead. The cave is patient.*
 
-*Transcendance awaits.*
+*Transcendence awaits.*
 
 \> [Grab the amulet](#inferno-1)  
 \> [Investigate the tendrils](#annex-emerald-heart)  
@@ -288,7 +288,7 @@
  󠀠    󠀠  󠀠 / 󠀠  󠀠  󠀠  󠀠 \\ 󠀠  󠀠 . 󠀠  󠀠  󠀠 / 󠀠  󠀠  󠀠 /  
 <br>
 &nbsp;&nbsp;There was a time before *the pod* where prod was a [librarian tier viewer](https://pub.colonq.computer/~prod/toy/glossary/) of The Man. **docket.org** is a file that regularly appears that lists all the ideas and "stream things to do" for the male cast. It is famous for being evergrowing and some ideas falling into "the abyss". Early contents of *the pod* often involved creating some of these ideas with ["yellow language"](https://www.npmjs.com/package/ws). Sites hosted on [pubnix](https://pub.colonq.computer/) such as DBKai is created during this time.
-- `JoelCheck` is one of the Joel emotes that used to be used for "pre gang"s, people that show up before the broadcast begins. When used in the LCOLONQ chatroom, the bot "recieve"s your JoelChecks.
+- `JoelCheck` is one of the Joel emotes that used to be used for "pre gang"s, people that show up before the broadcast begins. When used in the LCOLONQ chatroom, the bot "receive"s your JoelChecks.
 - **[Canonize](https://pub.colonq.computer/~prod/toy/canonize/)**: Every chat message in LCOLONQ gets a ["biblicality" score](https://www.youtube.com/watch?v=G5u23bh29hI), which is calculated by the average amount each word appears in [the bible](https://gutenberg.org/). Canonize is a web app that calculates biblicality and translates your sentences into "maximum biblical" versions.
 - DBKai also features a list of songs that are available by default in LCOLONQ broadcasts (can be called by redeeming bells with just its name), and all the features also feature original bells conversion.
 
@@ -350,7 +350,7 @@
 &nbsp;&nbsp;Right now, only **Constitution**, **Attack** and **Critical Chance** can be upgraded.
 
 ### Statistics
-  Certain stats of guys are tracked that doesn't influence its behaviour.
+  Certain stats of guys are tracked that doesn't influence its behavior.
 - **Total Wins** and **Losses** as well as **Max Win Streak** is recorded.
 - **Raid Boss Wins** and **Losses** are recorded separately, tracking times your guy landed a **final blow** to the raid boss and times it perished to the raid boss.
 - **Damage Dealt** and **Taken** are tracked as well, as well as **Total DPS**.
@@ -375,7 +375,7 @@
 
 <br>
 
-&nbsp;&nbsp;**Witscord** is a 10 year old Discord server that previously was about [The Witness](https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)). Now, it functions as a semi-public social hub that hosts a bunch of socialist 30 year olds and queer furries (where prod sits at an intersection), talking about 10 year old worth injokes and puzzle games that aren't The Witness. Most of prod's humor comes from this place. There is no way to document the entirity of the WitLore (nor is it in the spirit to), so only the parts that are related to *the pod* is documented here. For more information, see [the Witscord wiki](http://witscord.net/~staz/w/index.php/Main_Page) for dubious amounts of help.
+&nbsp;&nbsp;**Witscord** is a 10 year old Discord server that previously was about [The Witness](https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)). Now, it functions as a semi-public social hub that hosts a bunch of socialist 30 year olds and queer furries (where prod sits at an intersection), talking about 10 year old worth injokes and puzzle games that aren't The Witness. Most of prod's humor comes from this place. There is no way to document the entirety of the WitLore (nor is it in the spirit to), so only the parts that are related to *the pod* is documented here. For more information, see [the Witscord wiki](http://witscord.net/~staz/w/index.php/Main_Page) for dubious amounts of help.
 - **[@witscord@mas.to](https://mas.to/@witscord)** is an automated Mastodon account hosted by Witscord member [panic](http://ianhenderson.org/), that posts messages from the Discord based on a starboard-like interaction. For a message to be posted, more than 5 elephant reaction (🐘) needs to be reacted on a message, including one by the message author (as a form of consent to be posted online). Mammoth reactions (🦣) work as a negative elephant (downvote), increasing the elephant reaction by 1 every mammoth. Five ox (🐂) reactions makes the message a Nice Ox message. prod will often repost elephanted message to *the pod* as a form of **witposting** (wp). The Mastodon account is linked to [Bluesky](https://bsky.app/profile/did:plc:2rnuia5r3rwnvweibvzmmq43) as well. There are a set of emotes referencing this fact within *the pod*.
 - **[One Day One Puzzle](https://onedayonepuzl.web.app/)** (1D1P) is a "weekly" puzzle jam hosted within Witscord where members try to create puzzles within a short period of time. The tradition has started in 2020 by Witscord user sus1d1p (sus) and [Raz](https://studio369.itch.io/) (Studio369). Many puzzles are in the **lateral** genre, requiring outside-of-the-box thinking and deciphering minimal information. Notable 1D1Ps include [Teeth](https://thejonymyster.neocities.org/Teeth#) by TheJonyMyster and [You Drove Off the Road!](http://ianhenderson.org/you-drove-off-the-road.html) (ydotr) by panic.
 - **[Funny Looksy](https://prodzpod.github.io/looksy/)** is a custom The Witness puzzle created made by prod back when the server actually was about The Witness. The editor features dozens of custom symbols and community made tutorial and challenge panels. The software has been forked by **[beesnation](https://beesnation.github.io/witness/)** that fixes some bugs and adds new symbols. Other custom Witness puzzle makers include **[Lopsy](https://thejonymyster.neocities.org/lopsy)** by TheJonyMyster, **[What the Witness?](https://alith.itch.io/what-the-witness)** (wtw) by Alith and **[Seeker](https://justkirb.itch.io/seeker)** by Just Kirb. Version 3 of Looksy is "in the works", and might reappear on *the pod* soon.
