@@ -15,6 +15,8 @@ nichePenguin Docs: [nichePenguin](./pages/nichepenguin.md)
 
 prodzpod Docs: [prodzpod](./pages/prodzpod.md)
 
+Colinahscopy Docs: [Colinahscopy](./pages/colinahscopy.md)
+
 ## Contributing
 
 Please contact Tyumici if you need access to add your own commands document.
