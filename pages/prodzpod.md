@@ -36,7 +36,7 @@
   - you can customize your "guy" by creating a spritesheet and sending the image to prod. The format is a 3x2 rectangle of any size, with top 3 frames for walking, 1 for falling, 1 for attacking and 1 for getting attacked. See [the default guy sprite](https://prod.kr/data/shimeji/default.3x2.png) for example. This sprite is free to be modified if desired.
   - Every BRB screen (often once per stream), a **Raid Boss** spawns and draws aggro of every spawned "guy"s. Raid boss will have boosted health and damage, and often one-shots un-upgraded "guy"s. After the raid boss is defeated, a big brawl will break out where one chatter will come out on top with a lot of stat points to spend on level-ups. If you somehow aren't fighting the boss, you can `!fight prodzpod` to engage it.
 - `!gravity`: Apply gravity to every window and elements on screen. you can also specify a direction (`!gravity up`, `!gravity left`, `!gravity right`).
-- **The [Discord Server](https://prod.kr/discord)** and `!irc`: *the pod* offers a custom tube between twitch, discord and irc so that users can chat from any of these places and it would be relayed to everywhere else. In the chat overlay, both discord and twitch emotes are supported. In addition, prod has a `!post` gizmo that links various social media, which powers stream announcements going to [Bluesky](https://bsky.app/profile/prodzpod.bsky.social) and Discord simultaneously.
+- **The [Discord Server](https://prod.kr/discord)** and `!irc`: *the pod* offers a custom tube between twitch, discord and irc so that users can chat from any of these places and messages are relayed to everywhere else. In the chat overlay, both discord and twitch emotes are supported. In addition, prod has a `!post` gizmo that links various social media, which powers stream announcements going to [Bluesky](https://bsky.app/profile/prodzpod.bsky.social) and Discord simultaneously.
 - Most commands can be used outside of *the pod*, including twitch chats of [LCOLONQ](https://twitch.tv/lcolonq), [BrighterMalphon](https://twitch.tv/brightermalphon), [Lala Amanita](https://twitch.tv/lala_amanita), [SaladForrest](https://twitch.tv/saladforrest), [Tyumici](https://twitch.tv/tyumici) and [KinskyUnplugged](https://twitch.tv/kinskyunplugged).
 
 <br>
@@ -84,8 +84,8 @@
 &nbsp;&nbsp;**[The Screen](https://prod.kr/v/screen)** is an alternative way of interacting with *the pod*, where much finer control over the redeems are given to you. When you join the screen for the first time, you are asked to log in by typing a specific command in prod's twitch chat. This connects your browser with your twitch account for the screen, and allows to redeem on your behalf. After logging in, the bottom window should become a chat input where you can chat as if you are in twitch chat. Click the **bottom right** icon to access the action menu.
 ### Cursor Operation
 - **Point**: you can point at the screen, affects nothing physically.
-- **Click**: you can click on the screen. If you click an element (such as a window), rotate it to be upright.
-- **Fling**: first select the element, and then press the direction to aim to to throw the object towards that direction. When there are multiple object at that location, all of them gets flung with some spread.
+- **Click**: you can click on the screen. If you click an element (such as a window), it will rotate upright.
+- **Fling**: first select the element, and then press the direction to aim to throw the object towards that direction. When there are multiple objects at that location, all of them are flung with some spread.
 - **Pin**: make that element immune to moving via GreenHeat integrations or `!gravity`. You can unpin elements by flinging.
 - **Kill**: Removes any objects in that position. Cannot remove some elements such as prod themselves. This action also deals damage to raid bosses, but is not counted towards your guy's kill credit.
 ### Window Operation
@@ -144,7 +144,7 @@
 
 *Having to walk slouched awkwardly has taken a big toll on your back. It could not have been more welcome to see the rocks clear up around you.*
 
-*Water taps your feet as you begin wading in it. Beyond the mound lies a pocket of water that goes up to your knees. The walls have changed its color to a darker, blue hue. You feel like you've gone quite deep.*
+*Water taps your feet as you begin wading in it. Beyond the mound lies a pocket of water that goes up to your knees. The color of the walls have changed to a darker, blue hue. You feel like you've gone quite deep.*
 
 \> [Proceed downwards](#floor--3)  
 
@@ -153,7 +153,7 @@
 
  󠀠    󠀠    󠀠    󠀠    󠀠   _ 󠀠    󠀠    󠀠    󠀠    󠀠   _ 󠀠    󠀠    󠀠   - 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   --_ 󠀠    󠀠   _  
  󠀠   -- 󠀠   \_\_- 󠀠    󠀠   -\_\_\_ 󠀠    󠀠   \_- 󠀠    󠀠   \_\_-\_ 󠀠   ..\_\_ 󠀠   =\_- 󠀠   . 󠀠    󠀠   -- 󠀠    󠀠   \_ 󠀠    󠀠   \_ 󠀠    󠀠   \_\_ 󠀠    󠀠   =  
-*Family of algae tangles itself around your legs and stops your movement.*  
+*A family of algae tangles itself around your legs and stops your movement.*  
 *You try to force it apart, but the grip is strong.*  
  󠀠   --\_ 󠀠    󠀠   \_---\_\_ 󠀠    󠀠   \_\_- 󠀠   \_\_ 󠀠    󠀠    󠀠    󠀠   -- 󠀠    󠀠   \_=-- 󠀠    
  󠀠    󠀠    󠀠    󠀠   - 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   - 󠀠    󠀠    󠀠   -  
@@ -162,7 +162,7 @@
 - You can view your current IU amount via the `!inventory` command. You can also view other people's IU amounts by `!inventory [username]`.
 - Every week, your first message awards you **5000** IU. from then on, every chat message awards you **1** IU per every 100 characters or 10 emotes.
 
-&nbsp;&nbsp;**Icons** are the main use for gaining IU and are the little square images that shows in your chat messages. You can change and unlock icons by clicking on the bottom left icon (your twitch profile) in The Screen, and then clicking the "icons" section.
+&nbsp;&nbsp;**Icons** are the main use for gaining IU and are the little square images that appear in your chat messages. You can change and unlock icons by clicking on the bottom left icon (your twitch profile) in The Screen, and then clicking the "icons" section.
 - You can unlock a random icon by clicking the "Unlock Icon" button in The Screen or using `!unlockIcon` command for **4000** IU each.
 - There are a list of icons not available from the random unlock, that can only be achieved as a reward for completing various **[achievements](https://prod.kr/v/achievements)** within *the pod*.
 
@@ -193,8 +193,8 @@
  󠀠   ' 󠀠   。 󠀠    󠀠   . 󠀠    󠀠   O。 󠀠   ˚  o 󠀠    󠀠   ·. 󠀠    󠀠     ˚  
  󠀠    󠀠    󠀠   .' 󠀠   ˚ 󠀠   󠀠  . 󠀠   󠀠   󠀠  ' 󠀠   󠀠   󠀠   󠀠   󠀠  . 󠀠   󠀠  .   
 <br>
-&nbsp;&nbsp;prod and [SaladForrest](https://pooltoy.live) is hosting a weekly [Yume Nikki Online](https://ynoproject.net/) tour session, where we bring different guests every week and travel the dream worlds together. The stream is created in a way where the stream features **multiple monitors** in a virtual room, and viewers can look into each of them. Yume Nikki and its fangames has significant meaning to both prod and forrest. Part of why prod began streaming also has to do with this game and website, as they were dragged into the streaming world by a tour hosted by [Digiko](https://twitch.tv/digiko) (henceforth "Woman" or "Progenitor 2 / Light Progenitor").
-- During 2kki streams, prod and forrest's chat becomes linked, and every prod commands becomes available in forrest's chatroom as well.
+&nbsp;&nbsp;prod and [SaladForrest](https://pooltoy.live) are hosting a weekly [Yume Nikki Online](https://ynoproject.net/) tour session, where we bring different guests every week and travel the dream worlds together. The stream is created in a way where the stream features **multiple monitors** in a virtual room, and viewers can look into each of them. Yume Nikki and its fangames hold significant meaning to both prod and forrest. Part of why prod began streaming also has to do with this game and website, as they were dragged into the streaming world by a tour hosted by [Digiko](https://twitch.tv/digiko) (henceforth "Woman" or "Progenitor 2 / Light Progenitor").
+- During 2kki streams, prod and forrest's chat become linked, and every prod command becomes available in forrest's chatroom as well.
 - GreenHeat integrations also become linked, so you can click on forrest's channel to influence prod's overlay.
 - You can change "POV"s via redeems in forrest's twitch channel to see different people's POVs.
 - All travels are recorded in **[the repository](https://pub.colonq.computer/~prod/yume/)** where you can see screenshots from past expeditions, even ones before prod began streaming.
@@ -204,7 +204,7 @@
 
 *You start to feel lighter as you sink further into the water. Warmth surrounds you as fatigue sheds away into an unnatural comfort. It's as if you're being embraced by the water itself.*
 
-*Wasn't the puddle knee deep? It feels like you've been sinking for many seconds already. Am I dying? you think to yourself. You certainly don't feel like dying, in fact, what you're in doesn't feel like water at all.*
+*Wasn't the puddle knee deep? It feels like you've been sinking for many seconds already. "Am I dying?" you think to yourself. You certainly don't feel like dying, in fact, what you're in doesn't feel like water at all.*
 
 \> [Rise up to the top](#floor--3)  
 \> [Let yourself be submerged](#floor--5)  
@@ -212,7 +212,7 @@
 ## Floor -4
  󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   , 󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   ,  
  󠀠   ',| 󠀠    󠀠    󠀠   | 󠀠    󠀠    󠀠   || 󠀠    󠀠    󠀠    󠀠   |' 󠀠    󠀠   ' 󠀠    󠀠   ,, 󠀠    󠀠    󠀠   ,|' 󠀠    󠀠    󠀠    󠀠    󠀠   ' 󠀠    󠀠    󠀠    󠀠   | 󠀠   | 󠀠    󠀠   ' 󠀠    󠀠   '  
-*You being scaling down the surface. Rubbles fall everywhere you step.*  
+*You begin scaling down the surface. Rubble falls everywhere you step.*  
 *But transcendence awaits.*   
 | 󠀠    󠀠   || 󠀠    󠀠    󠀠    󠀠    󠀠   |''' 󠀠    󠀠   |' 󠀠    󠀠   ''  
  󠀠    󠀠    󠀠   ' 󠀠    󠀠    󠀠    󠀠   '  
@@ -223,14 +223,14 @@
 - `<color=#RRGGBB>`: Changes the text color.
 - `<size=26>`: Changes the font size. Default is `26`.
 - `<font=name>`: Changes the font family. Type `!font` for a list of supported fonts. 
-- `<wave>`, `<shake>`: Applies animation to texts. We recommend using this for emphasis instead of `<b>` as it works for every font families. You can also specify the parameters like `<wave amp=4 period=16 freq=1>` and `<shake amp=1>`.
+- `<wave>`, `<shake>`: Applies animation to texts. We recommend using this for emphasis instead of `<b>` as it works for all font families. You can also specify the parameters like `<wave amp=4 period=16 freq=1>` and `<shake amp=1>`.
 - `<charspace=0>`, `<lineheight=1>`: Changes the text margins.
-- `<tilt=0>`: Makes every letter rotated by a certain amount. In degrees.
+- `<tilt=0>`: Makes every letter rotate by a certain amount, in degrees.
 - Check the [dedicated docs page](https://prod.kr/docs/chat) for more detail and font previews.
 
-&nbsp;&nbsp;*the pod* also features **emotes** one can use without subscribing to the channel. Every discord and twitch emotes will be relayed to the overlay, as well as any 7TV emotes prod has added.
+&nbsp;&nbsp;*the pod* also features **emotes** one can use without subscribing to the channel. Every discord and twitch emote will be relayed to the overlay, as well as any 7TV emotes prod has added.
 - prod's own emotes are in a form of `:p_emote:`. You can send them anywhere by typing `:p_proon:` and so on.
-- In addition to prod's own emotes, prod's 7TV emotes include **every** "Joel" emotes on 7TV platform right now in a form of **[The Archive](https://7tv.app/emote-sets/01HXG0MAHG00063MFF82T8437P)**. You can use any of them and it will appear on the on-screen overlay.
+- In addition to prod's own emotes, prod's 7TV emotes include **every** "Joel" emote on 7TV platform right now in a form of **[The Archive](https://7tv.app/emote-sets/01HXG0MAHG00063MFF82T8437P)**. You can use any of them and it will appear on the on-screen overlay.
 - As of Season 1.5, emotes have a spacing issue where it doesn't space properly for the Discord to Twitch, and IRC bridge.
 
 <br>
@@ -251,9 +251,9 @@
  󠀠  ||....||  󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠    󠀠   . 󠀠   󠀠   󠀠      ||....||  
 <br>
 &nbsp;&nbsp;You can play music within *the pod* using a [custom format](https://prod.kr/docs/song). The song format is a superset of ["Bells of Bezelea"](https://pub.colonq.computer/~bezelea/bells/) redeems in the Male zones, and every redeem made for bells (the original version, not [the rusty bells](https://pub.colonq.computer/~the0x539/bells/)) will work here as well. You can play songs with The Screen actions or the `!song [format]` command.
-- Each note is represented with `A` to `G`, then the sharp (`#`) mark, then its octave if applicable. The octave can be omitted, where `A#` is equivalent to a `A4#`.
+- Each note is represented with `A` to `G`, then the sharp (`#`) mark, then an octave if applicable. The octave can be omitted, where `A#` is equivalent to a `A4#`.
 - Each note plays in sequence unless wrapped by a bracket (`[]`), where every note within a bracket is considered a **chord** and will play simultaneously.
-- You can use `/` to denote a pause, and `~` to play the previous note 1 beat longer. You can chain multiple `~`s to make notes of any length.
+- You can use `/` to denote a pause, and `~` to play the previous note 1 beat longer. You can chain multiple `~` to make notes of any length.
 - You can specify a **BPM** by adding a number at the beginning (`120|CDEFG`).
 - You can divide songs by `|` to play multiple songs at once. They are tracks that run independently from each other.
 
@@ -267,7 +267,7 @@
 - You can change the bpm and equal temperament midway through via using the `?` followed by the BPM in numbers.
 - Premade songs are available to be copied and played in [DBKai](https://pub.colonq.computer/~prod/toy/dbkai/): select any song from the dropdown and press **"prod"** where the result will be automatically copied to your clipboard. You can also convert **MIDI** files into `!song` formats by using the top menu.
 - More songs that take advantage of `!song`'s expanded system are available in [CrazyKitty's Repository](https://pub.colonq.computer/~crazykitty/).
-- At the bottom of DBKai, there are extra compression option in case the text-based compression is not enough. This takes advantage of a modified **Base32768** to nearly halve the character count. Keep in mind that song commands can be pasted to not only Twitch chat (**500** character limit) but also Discord (**2000**~4000 character limit) and The Screen (theoretically **infinite** character limit).
+- At the bottom of DBKai, there are extra compression options in case the text-based compression is not enough. This takes advantage of a modified **Base32768** to nearly halve the character count. Keep in mind that song commands can be pasted to not only Twitch chat (**500** character limit) but also Discord (**2000**~4000 character limit) and The Screen (theoretically **infinite** character limit).
 - There are a lot more to the specs, but they do not add more features and are for convenience and compression. check the [dedicated docs page](https://prod.kr/docs/chat) for more detail.
 
 <br>
@@ -282,7 +282,7 @@
 ## Annex: Emerald Heart
  󠀠  󠀠 󠀠  󠀠   󠀠  󠀠  󠀠 / 󠀠  󠀠  󠀠   \\ 󠀠  󠀠  󠀠  󠀠  󠀠 /./ 󠀠  󠀠  󠀠  󠀠 \\ 󠀠  󠀠 / 󠀠  󠀠 / 󠀠\\   󠀠  󠀠  󠀠  /\\  
  󠀠 .\\ 󠀠  󠀠  󠀠 / 󠀠  󠀠  󠀠 \\// 󠀠  󠀠..  󠀠 |// 󠀠.  󠀠  󠀠 | 󠀠  󠀠  󠀠 \\/// 󠀠  󠀠 . 󠀠  󠀠 \ 󠀠  󠀠  󠀠  󠀠 \\..  
-*Thousand tendrils soar to the sky, ground resonating with fear.*  
+*A thousand tendrils soar to the sky, ground resonating with fear.*  
 *You are at the heart of the underground.*  
  󠀠 \\ 󠀠'  󠀠  󠀠 / 󠀠  󠀠 / 󠀠 ' 󠀠  󠀠  󠀠  󠀠 \\ 󠀠  󠀠  󠀠  󠀠 /  󠀠 .   
  󠀠    󠀠  󠀠 / 󠀠  󠀠  󠀠  󠀠 \\ 󠀠  󠀠 . 󠀠  󠀠  󠀠 / 󠀠  󠀠  󠀠 /  
@@ -304,7 +304,7 @@
 
 <br>
 
-*As the earthen organ breathes, you feel an overwhelming sense of dread. You cannot dare approach closer, as the towering structure emanates unimaginable dread from within.*
+*As the earthen organ breathes, you feel an overwhelming sense of dread. You cannot dare move closer, as the towering structure emanates unimaginable dread from within.*
 
 \> [Head back to the temple](#floor--5)  
 
