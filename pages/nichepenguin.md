@@ -131,14 +131,14 @@ Base url: https://pub.colonq.computer/~nichepenguin/cgi-bin/
 Each swords json representation:
 ```json
 {
-  "id": 5,
+  "id": 5, // conditional
   "material": "zinc",
   "handle": "fine porcelain", // nullable
   "sword_type": "shortsword",
   "quality": "?",
   "name": "Nafalothofala", // nullable
   "real_name": "Victimemerald", // nullable
-  "owner": "XorXavier"
+  "owner": "XorXavier" // conditional
 }
 ```
 
