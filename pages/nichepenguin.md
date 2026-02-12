@@ -158,33 +158,21 @@ Always returns a paging object:
 {
   "data": [
     {
-      "id": 30,
+      "id": 1358,
       "material": "mithril",
       "handle": "mithril",
-      "sword_type": "needle",
-      "quality": " "
+      "sword_type": "dagger",
+      "quality": " ",
+      "owner": "forsen"
     },
-    {
-      "id": 131,
-      "material": "copper",
-      "handle": "copper",
-      "sword_type": "needle",
-      "quality": "+"
-    },
-    {
-      "id": 153,
-      "material": "glass",
-      "handle": "glass",
-      "sword_type": "needle",
-      "quality": "-"
-    }
+    //...
   ],
   "meta": {
     "page": 1,
     "per_page": 100,
-    "total_items": 3,
-    "total_pages": 1,
-    "has_next": false
+    "total_items": 253,
+    "total_pages": 3,
+    "has_next": true
   }
 }
 ```
