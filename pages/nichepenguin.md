@@ -44,15 +44,15 @@ Draws a random tarot card (uniformly) or sword. Chances are as follows:
 | Sword    | 12.89%        |
 
 If sword is drawn, its quality is rolled:
-| Quality         | Conditional % | Overall %   |
-| --------------- | ------------- | ----------- |
-| `Common`        | 40.00%        | **5.156%**  |
-| `-WellCrafted-` | 25.00%        | **3.2225%** |
-| `+Fine+`        | 15.00%        | **1.9335%** |
-| `*Superior*`    | 10.00%        | **1.289%**  |
-| `≡Exceptional≡` | 6.00%         | **0.7734%** |
-| `☼Masterful☼`   | 3.00%         | **0.3867%** |
-| *`Artifact`*    | 1.00%         | **0.1289%** |
+| Quality         | Symbol | Conditional % | Overall %   |
+| --------------- | ------ | ------------- | ----------- |
+| `Common`        | *none* | 40.00%        | **5.156%**  |
+| `-WellCrafted-` | -      | 25.00%        | **3.2225%** |
+| `+Fine+`        | +      | 15.00%        | **1.9335%** |
+| `*Superior*`    | *      | 10.00%        | **1.289%**  |
+| `≡Exceptional≡` | ≡      | 6.00%         | **0.7734%** |
+| `☼Masterful☼`   | ☼      | 3.00%         | **0.3867%** |
+| *`Artifact`*    | ?      | 1.00%         | **0.1289%** |
 
 Presence of handle decorations is determined after the quality:
 | Quality      | Conditional % |
@@ -124,16 +124,57 @@ Displays a ![meisakNoM](https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_1f8ae
 
 ## INTERACTIONS
 
-Swords (as well as needles and teeth) can be fetched with the following api, which is currently dead slow and might require some retries (especially on timeouts and bad gateways)
+Swords (as well as needles and teeth) can be fetched with the following api
 
 Base url: https://pub.colonq.computer/~nichepenguin/cgi-bin/
 
+Each swords json representation:
+```json
+{
+  "id": 5, // conditional
+  "material": "zinc",
+  "handle": "fine porcelain", // nullable
+  "sword_type": "shortsword",
+  "quality": "?",
+  "name": "Nafalothofala", // nullable
+  "real_name": "Victimemerald", // nullable
+  "owner": "XorXavier" // conditional
+}
+```
+
+Nullable fields that are not present are omitted, `name` and `real_name` fields are only applicable to *artifact* swords.
+
 ### GET /armory?id=*sword_id*
 
-Returns a json representation of a sword with id = *sword_id*
+Returns a json representation of a sword with id = *sword_id*, `id` field is omitted.
 
+### GET /armory
 ### GET /armory?name=*twitch_username*
 
-Returns a json array with swords that *twitch_username* owns, empty array if not found.
+Also accepts `page` (greater than zero, default is 1) and `per_page` (in range (0, 1000], default is 100) query params.
 
+Always returns a paging object:
+```json
+{
+  "data": [
+    {
+      "id": 1358,
+      "material": "mithril",
+      "handle": "mithril",
+      "sword_type": "dagger",
+      "quality": " ",
+      "owner": "forsen"
+    },
+    //...
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 100,
+    "total_items": 253,
+    "total_pages": 3,
+    "has_next": true
+  }
+}
+```
 
+If name is specified in the query, owner is omitted.
