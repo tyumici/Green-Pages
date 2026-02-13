@@ -10,6 +10,7 @@
             - [!needle](#needle)
         - [Misc Commands](#misc-commands)
             - [!sbob-ad](#sbob-ad)
+            - [!moon](#moon)
             - [!rice](#rice)
             - [!voidstranger](#voidstranger)
             - [!ping](#ping)
@@ -90,6 +91,9 @@ Rolls for a chance to find a needle in a haystack, which is roughly 1.95% percen
 
 Prints the current advertisement for the [Small Book Of Bug](https://pub.colonq.computer/~nichepenguin/kno/sbob.html), where you can look at various bugs, as well as submit your own!
 
+#### !moon
+
+Prints the current moon phase (with an emoji), illumination, age, angle and distance to Earth
 
 #### !rice
 
@@ -99,7 +103,6 @@ Prints the current status of rice (it is always burned to charcoal)
 ***Warning:*** excluded from LCOLONQ channel, as he has his own !voidstranger command
 
 Prints the link to the game Void Stranger on steam
-
 
 #### !ping
 
