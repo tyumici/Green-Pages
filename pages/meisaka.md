@@ -19,17 +19,17 @@
 
 ## LINKS
 
-[Twitch](www.twitch.tv/meisaka)
-[GitHub](https://github.com/meisaka)
-[KoFi](https://ko-fi.com/meisaka)
-[YouTube](https://www.youtube.com/@meisakayukara8058)
-[Discord](https://discord.gg/AJaZrCY9aQ)
-[Wave 2 VM Docs](https://raw.githubusercontent.com/Meisaka/MeiVM2/refs/heads/main/vm.txt)
+- [Twitch](www.twitch.tv/meisaka)
+- [GitHub](https://github.com/meisaka)
+- [KoFi](https://ko-fi.com/meisaka)
+- [YouTube](https://www.youtube.com/@meisakayukara8058)
+- [Discord](https://discord.gg/AJaZrCY9aQ)
+- [Wave 2 VM Docs](https://raw.githubusercontent.com/Meisaka/MeiVM2/refs/heads/main/vm.txt)
 
 ## SEE ALSO
 
-[NichePenguin](./nichepenguin.md)
-[Tyumici](./tyumici.md)
+ - [NichePenguin](./nichepenguin.md)
+ - [Tyumici](./tyumici.md)
 
 ## COMMANDS
 
@@ -87,13 +87,13 @@ Display a timestamp in meisaka local time, whatever that means
 Uses a 3rd party service to lookup and display weather for a location
 
 Requires a parameter:
-- <US City>
+- *US City*
     - Fuzzy find by city name
-- <City>, <US State>
+- *City*, *US State*
     - Fuzzy find by city name and state
-- <City>, <Country>
+- *City*, *Country*
     - Fuzzy find by city name and country
-- <US Postal Code>
+- *US Postal Code*
     - Zip 5 of a location
 
 > Provided via NightBot
@@ -232,8 +232,8 @@ Display random or manage quotes
 > StreamElements quotes module, see the SE docs
 
 Parameter:
-    - add <text>
-    - remove <quote number>
+    - add `text`
+    - remove `quote number`
 
 #### !queue
 
@@ -291,7 +291,7 @@ StreamElements will say a user is permitted
 
 Change the Chibi model if either word occurs in a message
 
-### (text match) CSS / <space>css
+### (text match) CSS / \<space\>css
 
 Displays 3x meisakCSS emote if CSS appears in a message
 
