@@ -232,17 +232,17 @@ Display random or manage quotes
 > StreamElements quotes module, see the SE docs
 
 Parameter:
-    - add `text`
-    - remove `quote number`
+- add `text`
+- remove `quote number`
 
 #### !queue
 
 > StreamElements queue management, see the SE docs
 
 Parameter:
-- close|open
-- pause|unpause
-- remove|pick|position
+- close | open
+- pause | unpause
+- remove | pick | position
 - join
 - list
 
@@ -285,6 +285,10 @@ StreamElements will say a user is permitted
 
 > StreamElements moderation is not used, so this is not too useful ;))))))
 
+#### !shill
+
+> Shill Meisaka via NOTICE ( /announcegreen ... )
+
 ## INTERACTIONS
 
 ### (text match) wafers / TSMC
@@ -293,7 +297,8 @@ Change the Chibi model if either word occurs in a message
 
 ### (text match) CSS / \<space\>css
 
-Displays 3x meisakCSS emote if CSS appears in a message
+Displays 3x ![meisakCSS](https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_262e556ba9074e6b8feeb5ea09c40878/default/dark/2.0)
+if CSS appears in a message
 
 ### Sadness
 
