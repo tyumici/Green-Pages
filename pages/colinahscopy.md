@@ -7,6 +7,7 @@
     - [!game](#game)
     - [!followage](#followage)
     - [!plate](#plate)
+    - [!collection](#collection)
   - [INTERACTIONS](#interactions)
 
 ## LINKS
