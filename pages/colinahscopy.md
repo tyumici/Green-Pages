@@ -47,7 +47,7 @@ Generate a license plate from one of 65 regions at random. (50 US States + DC + 
 
 ### !collection
 
-View your license plate collection.
+Returns a URL to view your license plate collection.
 
 
 ## INTERACTIONS
