@@ -7,6 +7,7 @@
     - [!game](#game)
     - [!followage](#followage)
     - [!plate](#plate)
+    - [!collection](#collection)
   - [INTERACTIONS](#interactions)
 
 ## LINKS
@@ -29,7 +30,7 @@ Plays a Joel fact audio clip at random. (if you are interested in adding to this
 
 ### !game
 
-Links out to the [treeshaker](https://tree.cedrs.org) game I've made
+Links out to the [treeshaker](https://tree.cedrs.org) game I've made. You get 10 free turns on sign-up, more turns can be redeemed by Channel Points.
 
 <hr>
 
@@ -42,7 +43,11 @@ Prints back the follow age of your account
 ### !plate
 ***Aliases:*** !lp
 
-(Coming Soon)
+Generate a license plate from one of 65 regions at random. (50 US States + DC + PR + 13 CA provinces/territories)
+
+### !collection
+
+Returns a URL to view your license plate collection.
 
 
 ## INTERACTIONS
@@ -56,3 +61,7 @@ Prints back the follow age of your account
     - classic
     - ydwc
     - ...and more! (you gotta figure the others out)
+- Inklink Guy
+  - I have an E-Ink display in a picture frame that's in the bottom right of the stream.
+  - The Channel Point redemption `Look at this Photograph!` lets you set the display to an image URL of your choice (supports JPG, PNG, and WEBP).
+  - If the image breaks Twitch TOS, it will get removed and you get no refunds.
