@@ -8,6 +8,7 @@
     - [!followage](#followage)
     - [!plate](#plate)
     - [!collection](#collection)
+    - [!today](#today)
   - [INTERACTIONS](#interactions)
 
 ## LINKS
@@ -49,6 +50,9 @@ Generate a license plate from one of 65 regions at random. (50 US States + DC + 
 
 Returns a URL to view your license plate collection.
 
+### !today
+
+Plays audio prompting me to explain what we're working on today.
 
 ## INTERACTIONS
 
