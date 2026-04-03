@@ -9,6 +9,8 @@
     - [!plate](#plate)
     - [!collection](#collection)
     - [!today](#today)
+    - [!help](#help)
+    - [!commands](#commands)
   - [INTERACTIONS](#interactions)
 
 ## LINKS
@@ -37,7 +39,7 @@ Links out to the [treeshaker](https://tree.cedrs.org) game I've made. You get 10
 
 ### !followage
 
-Prints back the follow age of your account
+Returns the follow age of your account
 
 <hr>
 
@@ -46,13 +48,31 @@ Prints back the follow age of your account
 
 Generate a license plate from one of 65 regions at random. (50 US States + DC + PR + 13 CA provinces/territories)
 
+<hr>
+
 ### !collection
 
 Returns a URL to view your license plate collection.
 
+<hr>
+
 ### !today
 
 Plays audio prompting me to explain what we're working on today.
+
+<hr>
+
+### !help
+
+Responds with a link to this doc file
+
+<hr>
+
+### !commands
+
+Returns back all the available commands (even ones not mentioned here)
+
+<hr>
 
 ## INTERACTIONS
 
