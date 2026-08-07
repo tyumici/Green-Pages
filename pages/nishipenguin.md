@@ -1,7 +1,7 @@
-# [💚/💜] nichePenguin
+# [💚/💜] nishipenguin
 
 [Home](../README.md)
-- [\[💚/💜\] nichePenguin](#-nichePenguin)
+- [\[💚/💜\] nishipenguin](#-nishipenguin)
     - [LINKS](#links)
     - [COMMANDS](#commands)
         - [Cards, Swords and Needles suite](#cards-swords-and-needles-suite)
@@ -27,13 +27,17 @@
 
 ## COMMANDS
 
-Available in channels: [bigbookofbug](https://www.twitch.tv/bigbookofbug), [BrighterMalphon](https://www.twitch.tv/brightermalphon), [KinskyUnplugged](https://www.twitch.tv/kinskyunplugged), [lala_amanita](https://www.twitch.tv/lala_amanita), [LCOLONQ](https://www.twitch.tv/lcolonq), [Meisaka](https://www.twitch.tv/meisaka), [MyriadMinds](https://www.twitch.tv/myriadminds), [nichePenguin](https://www.twitch.tv/nichePenguin), [PippinFool](https://www.twitch.tv/pippinfool), [prodzpod](https://www.twitch.tv/prodzpod), [SaladForrest](https://www.twitch.tv/saladforrest), [Tyumici](https://www.twitch.tv/tyumici),
+Available in channels: [bigbookofbug](https://www.twitch.tv/bigbookofbug), [BrighterMalphon](https://www.twitch.tv/brightermalphon), [KinskyUnplugged](https://www.twitch.tv/kinskyunplugged), [lala_amanita](https://www.twitch.tv/lala_amanita), [LCOLONQ](https://www.twitch.tv/lcolonq), [Meisaka](https://www.twitch.tv/meisaka), [MyriadMinds](https://www.twitch.tv/myriadminds), [nishipenguin](https://www.twitch.tv/nishipenguin), [PippinFool](https://www.twitch.tv/pippinfool), [prodzpod](https://www.twitch.tv/prodzpod), [SaladForrest](https://www.twitch.tv/saladforrest), [Tyumici](https://www.twitch.tv/tyumici),
 
 <hr>
 
-### Cards, Swords and Needles suite
+### Tarot: Cards, Swords and Needles suite
 
 <hr>
+
+#### !justice
+
+Restores justice to you, who was wronged. You'll know when to use it.
 
 #### !draw
 
@@ -89,7 +93,7 @@ Rolls for a chance to find a needle in a haystack, which is roughly 1.95% percen
 
 #### !sbob-ad
 
-Prints the current advertisement for the [Small Book Of Bug](https://pub.colonq.computer/~nichepenguin/kno/sbob.html), where you can look at various bugs, as well as submit your own!
+Prints the current advertisement for the [Small Book Of Bug](https://pub.colonq.computer/~nichepenguin/kno/sbob.html), where you can look at various bugs that were submitted!
 
 #### !moon
 
