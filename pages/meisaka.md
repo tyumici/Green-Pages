@@ -28,7 +28,7 @@
 
 ## SEE ALSO
 
- - [NichiPenguin](./nichipenguin.md)
+ - [NishiPenguin](./nishipenguin.md)
  - [Tyumici](./tyumici.md)
 
 ## COMMANDS
