@@ -28,7 +28,7 @@
 
 ## SEE ALSO
 
- - [NichePenguin](./nichepenguin.md)
+ - [NichiPenguin](./nichipenguin.md)
  - [Tyumici](./tyumici.md)
 
 ## COMMANDS
@@ -81,6 +81,10 @@ Current stream runtime
 Display a timestamp in meisaka local time, whatever that means
 
 > Provided via NightBot
+
+#### !wind
+
+Read the winds of fate, mostly just for fun.
 
 #### !weather
 
@@ -141,12 +145,6 @@ Displays when the user's twitch account was created
 #### !followage / !howlong / !followsince / !followfor
 
 Displays how long have you been following meisaka
-
-#### !chibi / !css / !light / !woah / !eepy
-
-Change the Chibi model
-
-> Changes apply even if the Chibi is not visible on stream
 
 ### Counters Suite
 
@@ -290,10 +288,6 @@ StreamElements will say a user is permitted
 > Shill Meisaka via NOTICE ( /announcegreen ... )
 
 ## INTERACTIONS
-
-### (text match) wafers / TSMC
-
-Change the Chibi model if either word occurs in a message
 
 ### (text match) CSS / \<space\>css
 
