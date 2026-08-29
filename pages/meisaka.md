@@ -3,6 +3,7 @@
 ## TABLE OF CONTENTS
 - [Links](#links)
 - [See Also](#see-also)
+- [Wands Module](#wands-module)
 - [Commands](#commands)
     - [Information](#informational-suite)
     - [Assorted](#interaction-suite)
@@ -31,6 +32,68 @@
  - [NishiPenguin](./nishipenguin.md)
  - [Tyumici](./tyumici.md)
 
+## Wands Module
+
+Commands related to the Wand collection sub-system. This system may gain additional functionality as development continues.
+
+Active on Channels: [LCOLONQ](https://www.twitch.tv/lcolonq), [Meisaka](https://www.twitch.tv/meisaka)
+
+### Wand Commands
+
+#### !inv / !wands / !wandventory
+
+Overview of found wands, presents a random wand from your current collection (if you have any)
+
+#### !wand / !wander / !wonder
+
+Search for a wand, with different flavour text for each
+
+#### !wind
+
+Read the winds of fate, mostly just for fun.
+
+### Wand System Information
+
+Wand search commands provide a 12.5% chance to grant a random wand, otherwise nothing.
+
+"Wands" will be generated in one of several object-families, where each family has an array of formats. The current families are as such:
+
+- Mundane
+  - Spoon
+  - Fork
+  - Handmirror
+  - Hairpins
+  - Stylus
+  - Toilet Brush
+  - Toothbrush
+  - Hairbrush
+  - non-magical Stick
+  - magical Stick
+  - Toothpick
+  - Kabab stick
+- Wand-ish
+  - Wand
+  - Pen
+  - Staff
+  - Cane
+- Broom-like
+  - Broom
+  - Mop
+  - Rake
+
+Each family is rolled for evenly, then a format from the family is rolled evenly.
+Once a format is selected, a set of materials for it are determined and rolled for.
+All objects have a rarity tier. Object format and rarity can restrict which materials are possible.
+
+Rarities are bracketed thresholds (scores) based on a normal distribution, the score cutoffs (for version 0) are as such:
+
+- Tier 0 - score >= 0.8
+- Tier 1 - 0.8 > score > 0.3
+- Tier 2 - 0.3 > score > 0.1
+- Tier 3 - 0.1 > score > 0.02
+- Tier 4 - 0.02 > score > 0.01
+- Tier 5 - 0.01 > score
+
 ## COMMANDS
 
 Commands listed here are currently only available on the Meisaka twitch channel
@@ -42,8 +105,6 @@ Prefix: **!**
 - !youtube / !yt
 - !discord
 - !github
-- !greg
-    - [Gregtech server info](https://gregtech.ell.dev/) hosted by [@ellg](https://twitch.tv/ellg)
 - !factorio
     - information about factorio, when relavent
 - !etheria
@@ -60,7 +121,7 @@ Prefix: **!**
     - get a [link to the documentation](https://github.com/tyumici/Green-Pages/blob/wiki/pages/meisaka.md)
     - also displays the NightBot command list
 - !theme / !colourscheme / !colorscheme
-    - show the active neovim theme. (it's melange btw)
+    - show the active neovim theme.
 - !version
     - Query the current meisaka versions.
 - !project / !projects
@@ -81,10 +142,6 @@ Current stream runtime
 Display a timestamp in meisaka local time, whatever that means
 
 > Provided via NightBot
-
-#### !wind
-
-Read the winds of fate, mostly just for fun.
 
 #### !weather
 
@@ -320,6 +377,7 @@ Any chat messages containing/matching
 - `#hhhh` - short RGBA
 - `#hhhhhh` - long RGB
 - `#hhhhhhhh` - long RGBA
+
 where `h` is any hexadecimal nibble, are translated into CSS hex colour codes
 this sets the background colour of the matching text,
 and any text connected to the matching text via non-space (`&sp;`) characters
